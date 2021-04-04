@@ -8,5 +8,5 @@ This course can be viewed in [Kaggle - Learn Python Tutorials](https://www.kaggl
 ### Lessons
 
 1. Hello, Python
-
+2. Functions and Getting Help
 

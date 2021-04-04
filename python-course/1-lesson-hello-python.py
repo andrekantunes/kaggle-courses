@@ -1,3 +1,5 @@
+# Lesson 1 - Hello Python
+
 spam_amount = 0
 print(spam_amount)
 
