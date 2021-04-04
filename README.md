@@ -9,4 +9,4 @@ Info about the course in [Kaggle - Learn Python Tutorials](https://www.kaggle.co
 
 1. Hello, Python
 2. Functions and Getting Help
-
+3. Booleans and Conditionals
