@@ -20,6 +20,7 @@ radius = diameter / 2
 area = pi * radius ** 2
 print("The Area of the circle is equal to: ", area,"cm")
 
+
 ### Question 2 - Swap variables
 
 a = [1, 2, 3]
@@ -38,15 +39,18 @@ a, b = b, a
 print("Vector a: ", a)
 print("Vector b: ", b)
 
+
 ### Question 3.a - Equation to evaluate 1 --- ( 5 - 3 // 2 )
 
 result = (5 - 3) // 2
 print("Equation result is: ", result)
 
+
 ### Question 3.b - Equation to evaluate 0 --- ( 8 - 3 * 2 - 1 + 1 )
 
 result = 8 - ( 3 * 2 ) - ( 1 + 1 )
 print("Equation result is: ", result)
+
 
 ### Question 4 
 
@@ -65,6 +69,9 @@ candies_for_each = sum_candies // 3
 
 to_smash = sum_candies - candies_for_each * 3
 
+to_smash_modulus = sum_candies % 3
+
 print("The total number of candies is: ", sum_candies)
 print("Each one will receive: ", candies_for_each, "candies")
 print(to_smash, "candies will be smashed")
+print(to_smash_modulus, "candies will be smashed")
