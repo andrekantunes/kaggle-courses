@@ -181,5 +181,8 @@ def should_hit(dealer_total, player_total, player_low_aces, player_high_aces):
     For example, if the player's hand is {A, A, A, 7}, we will count it as 11 + 1 + 1 + 7,
     and therefore set player_total=20, player_low_aces=2, player_high_aces=1.
     """
-    return False
+    if (player_total <= 11)
+        return True
+    else:
+        return False
 
