@@ -12,3 +12,4 @@ Info about the course in [Kaggle - Learn Python Tutorials](https://www.kaggle.co
 3. Booleans and Conditionals
 4. Lists
 5. Loops and List Comprehension
+6. Strings and Dictionaries

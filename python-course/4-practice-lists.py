@@ -101,7 +101,11 @@ def fashionably_late(arrivals, name):
     # order = arrivals.index(name)
     # return order >= len(arrivals) / 2 and order != len(arrivals) - 1
     
-    half = len(arrivals) // 2
+    if (len(arrivals) % 2):
+        half = len(arrivals) // 2 + 1
+    else:
+        half = len(arrivals) // 2
+        
     fashionably = arrivals[half:-1]
     
     print("list of fashionables: ", fashionably)
