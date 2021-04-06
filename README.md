@@ -13,3 +13,4 @@ Info about the course in [Kaggle - Learn Python Tutorials](https://www.kaggle.co
 4. Lists
 5. Loops and List Comprehension
 6. Strings and Dictionaries
+7. External libraries
