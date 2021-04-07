@@ -14,3 +14,4 @@ Info about the course in [Kaggle - Learn Python Tutorials](https://www.kaggle.co
 5. Loops and List Comprehension
 6. Strings and Dictionaries
 7. External libraries
+8. Bonus Titanic Tutorial
