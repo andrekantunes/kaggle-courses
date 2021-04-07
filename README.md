@@ -15,3 +15,13 @@ Info about the course in [Kaggle - Learn Python Tutorials](https://www.kaggle.co
 6. Strings and Dictionaries
 7. External libraries
 8. Bonus Titanic Tutorial
+
+## 2 - Intro to Machine Learning
+### Core Ideas to Machine Learning and first models
+
+Info about the course in [Kaggle - Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning).
+
+### Lessons
+
+1. How Models Work
+2. Basic Data Exploration
