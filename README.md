@@ -25,3 +25,5 @@ Info about the course in [Kaggle - Intro to Machine Learning](https://www.kaggle
 
 1. How Models Work
 2. Basic Data Exploration
+3. First Machine Learning Model
+4. Model validation
