@@ -30,3 +30,4 @@ Info about the course in [Kaggle - Intro to Machine Learning](https://www.kaggle
 5. Underfitting and Overfitting
 6. Random Forests
 7. Practice Machine Learning
+8. Bonus Automated Machine Learning
