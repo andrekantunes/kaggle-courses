@@ -27,3 +27,6 @@ Info about the course in [Kaggle - Intro to Machine Learning](https://www.kaggle
 2. Basic Data Exploration
 3. First Machine Learning Model
 4. Model validation
+5. Underfitting and Overfitting
+6. Random Forests
+7. Practice Machine Learning
