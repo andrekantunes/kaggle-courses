@@ -27,8 +27,8 @@ from sklearn.ensemble import RandomForestRegressor
 
 ### load .csv into dataframes
 
-train_data = pandas.read_csv("train.csv")
-test_data = pandas.read_csv("test.csv")
+train_data = pandas.read_csv("../../kaggle-datasets/01-titanic-disaster/train.csv")
+test_data = pandas.read_csv("../../kaggle-datasets/01-titanic-disaster/test.csv")
 
 # Clear NaN values of the Dataframe
 train_data = train_data.dropna(axis=0)

@@ -19,7 +19,7 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 
 # Load data
-melbourne_file_path = 'data/melb_data.csv'
+melbourne_file_path = '../kaggle-datasets/02-melbourne-housing-snapshot/melb_data.csv'
 melbourne_data = pd.read_csv(melbourne_file_path)
 
 # Filter rows with missing price values

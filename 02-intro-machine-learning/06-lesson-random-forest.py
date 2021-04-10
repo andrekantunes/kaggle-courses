@@ -16,7 +16,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
     
 # Load data
-melbourne_file_path = 'data/melb_data.csv'
+melbourne_file_path = '../kaggle-datasets/02-melbourne-housing-snapshot/melb_data.csv'
 melbourne_data = pd.read_csv(melbourne_file_path) 
 
 # Filter rows with missing values
@@ -40,9 +40,3 @@ forest_model = RandomForestRegressor(random_state=1)
 
 # Fit the model
 forest_model.fit(train_X, train_y)
-
-# Predict values
-melb_preds = forest_model.predict(val_X)
-
-# Compare predictions with values
-print(mean_absolute_error(val_y, melb_preds))

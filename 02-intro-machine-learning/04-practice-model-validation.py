@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 
 # Path of the file to read
-iowa_file_path = 'data/home-data-train.csv'
+iowa_file_path = '../kaggle-datasets/03-home-data-for-ml-course/train.csv'
 
 home_data = pd.read_csv(iowa_file_path)
 y = home_data.SalePrice

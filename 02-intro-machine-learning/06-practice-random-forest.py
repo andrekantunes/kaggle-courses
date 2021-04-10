@@ -8,7 +8,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 
 # Path of the file to read
-iowa_file_path = 'data/home-data-train.csv'
+iowa_file_path = '../kaggle-datasets/03-home-data-for-ml-course/train.csv'
 
 home_data = pd.read_csv(iowa_file_path)
 

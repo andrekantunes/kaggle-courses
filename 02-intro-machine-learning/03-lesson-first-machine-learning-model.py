@@ -5,7 +5,7 @@
 import pandas as pd
 
 # Import csv data into dataframe with read_csv from panda library
-melbourne_file_path = 'data/melb_data.csv'
+melbourne_file_path = '../kaggle-datasets/02-melbourne-housing-snapshot/melb_data.csv'
 melbourne_data = pd.read_csv(melbourne_file_path) 
 
 # Show summary from the dataframe

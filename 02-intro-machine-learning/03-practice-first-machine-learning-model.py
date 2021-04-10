@@ -4,7 +4,7 @@
 import pandas as pd
 
 # Path of the file to read
-iowa_file_path = 'data/home-data-train.csv'
+iowa_file_path = '../kaggle-datasets/03-home-data-for-ml-course/train.csv'
 
 # .csv to dataframe
 home_data = pd.read_csv(iowa_file_path)

@@ -31,3 +31,12 @@ Info about the course in [Kaggle - Intro to Machine Learning](https://www.kaggle
 6. Random Forests
 7. Practice Machine Learning
 8. Bonus Automated Machine Learning
+
+## 3 - Intermediate Machine Learning
+### Missing values, non-numeric values and data leaking
+
+Info about the course in [Kaggle - Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning).
+
+### Lessons
+
+1. Introduction

@@ -1,2 +1,3 @@
 # Large Datasets (csv) files from kaggle
-02-intro-machine-learning/automated-machine-learning/train.csv
+kaggle-datasets/04-taxi-fares/train.csv
+kaggle-datasets/04-taxi-fares/train_small.csv

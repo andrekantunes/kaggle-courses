@@ -17,7 +17,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 
 # Path of the file to read. We changed the directory structure to simplify submitting to a competition
-iowa_file_path = 'data/home-data-train.csv'
+iowa_file_path = '../kaggle-datasets/03-home-data-for-ml-course/train.csv'
 
 home_data = pd.read_csv(iowa_file_path)
 
@@ -61,7 +61,7 @@ rf_model_on_full_data = RandomForestRegressor(random_state=1)
 rf_model_on_full_data.fit(X, y)
 
 # path to file you will use for predictions
-test_data_path = 'data/home-data-test.csv'
+test_data_path = '../kaggle-datasets/03-home-data-for-ml-course/test.csv'
 
 # read test data file using pandas
 test_data = pd.read_csv(test_data_path)
