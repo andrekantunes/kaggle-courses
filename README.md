@@ -40,3 +40,4 @@ Info about the course in [Kaggle - Intermediate Machine Learning](https://www.ka
 ### Lessons
 
 1. Introduction
+2. Missing Values

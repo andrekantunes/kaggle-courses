@@ -81,5 +81,5 @@ amw.train_model()
 # Get predictions
 amw.get_predictions()
 
-submission_df = pd.read_csv("../working/submission.csv")
+submission_df = pd.read_csv("../../kaggle-datasets/04-taxi-fares/submission.csv")
 submission_df.head()
