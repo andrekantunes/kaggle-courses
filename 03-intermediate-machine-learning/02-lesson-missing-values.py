@@ -45,6 +45,7 @@ def score_dataset(X_train, X_valid, y_train, y_valid):
     preds = model.predict(X_valid)
     return mean_absolute_error(y_valid, preds)
 
+
 # 1 - First Option - Drop missing values
 
 # Get names of columns with missing values
@@ -60,11 +61,16 @@ reduced_X_valid = X_valid.drop(cols_with_missing, axis=1)
 print("MAE from Approach 1 (Drop columns with missing values):")
 print(score_dataset(reduced_X_train, reduced_X_valid, y_train, y_valid))
 
+
 # 2 - Second Option - Imputation
 
-# Imputation
+# Imputation - 
+# Fit_Transform - Fit to data, then transform
+# Default: Mean - Impute the mean value in missing values
 my_imputer = SimpleImputer()
 imputed_X_train = pd.DataFrame(my_imputer.fit_transform(X_train))
+
+# Transform - Impute all missing values - Only transform, don't fit again
 imputed_X_valid = pd.DataFrame(my_imputer.transform(X_valid))
 
 # Imputation removed column names; put them back
@@ -73,6 +79,7 @@ imputed_X_valid.columns = X_valid.columns
 
 print("MAE from Approach 2 (Imputation):")
 print(score_dataset(imputed_X_train, imputed_X_valid, y_train, y_valid))
+
 
 # 3 - Third Option - Extension to Imputation
 
@@ -85,6 +92,9 @@ for col in cols_with_missing:
     X_train_plus[col + '_was_missing'] = X_train_plus[col].isnull()
     X_valid_plus[col + '_was_missing'] = X_valid_plus[col].isnull()
 
+# print(X_train.head())
+# print(X_train_plus.head())
+
 # Imputation
 my_imputer = SimpleImputer()
 imputed_X_train_plus = pd.DataFrame(my_imputer.fit_transform(X_train_plus))
@@ -93,6 +103,8 @@ imputed_X_valid_plus = pd.DataFrame(my_imputer.transform(X_valid_plus))
 # Imputation removed column names; put them back
 imputed_X_train_plus.columns = X_train_plus.columns
 imputed_X_valid_plus.columns = X_valid_plus.columns
+
+print(imputed_X_train_plus.head())
 
 print("MAE from Approach 3 (An Extension to Imputation):")
 print(score_dataset(imputed_X_train_plus, imputed_X_valid_plus, y_train, y_valid))
