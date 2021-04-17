@@ -29,7 +29,7 @@
 import pandas as pd
 
 # Read the data
-data = pd.read_csv('../input/aer-credit-card-data/AER_credit_card_data.csv', 
+data = pd.read_csv('../kaggle-datasets/05-aer-credit-card-data/AER_credit_card_data.csv', 
                    true_values = ['yes'], false_values = ['no'])
 
 # Select target
