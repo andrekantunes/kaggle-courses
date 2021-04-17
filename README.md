@@ -46,3 +46,13 @@ Info about the course in [Kaggle - Intermediate Machine Learning](https://www.ka
 5. Cross Validation
 6. XGBoost
 7. Data Leakage
+
+## 4 - Pandas
+### Perfect the data manipulation skills
+
+Info about the course in [Kaggle - Pandas](https://www.kaggle.com/learn/pandas).
+
+### Lessons
+
+1. Creating, reading and writing data
+2. Indexing, selecting and assigning data
