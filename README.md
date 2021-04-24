@@ -26,7 +26,7 @@ Info about the course in [Kaggle - Intro to Machine Learning](https://www.kaggle
 1. How Models Work
 2. Basic Data Exploration
 3. First Machine Learning Model
-4. Model validation
+4. Model Validation
 5. Underfitting and Overfitting
 6. Random Forests
 7. Practice Machine Learning
@@ -54,5 +54,9 @@ Info about the course in [Kaggle - Pandas](https://www.kaggle.com/learn/pandas).
 
 ### Lessons
 
-1. Creating, reading and writing data
-2. Indexing, selecting and assigning data
+1. Creating, Reading and Writing data
+2. Indexing, Selecting and Assigning data
+3. Summary Functions and Maps
+4. Grouping and Sorting
+5. Data Types and Missing Values
+6. Renaming and Combining
