@@ -60,3 +60,14 @@ Info about the course in [Kaggle - Pandas](https://www.kaggle.com/learn/pandas).
 4. Grouping and Sorting
 5. Data Types and Missing Values
 6. Renaming and Combining
+
+## 5 - Data Cleaning
+### Master efficient workflows for cleaning data
+
+Info about the course in [Kaggle - Data Cleaning](https://www.kaggle.com/learn/data-cleaning).
+
+1. Handling Missing Values
+2. Scaling and Normalization
+3. Parsing Dates
+4. Character Encodings
+5. Inconsistent Data Entry
