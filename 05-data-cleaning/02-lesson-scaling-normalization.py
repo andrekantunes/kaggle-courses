@@ -36,4 +36,14 @@ ax[1].set_title("Scaled data")
 plt.show()
 
 # Normalization - changing the shape of the distribution
+# Normal Distribution
 
+# normalize the exponential data with boxcox
+normalized_data = stats.boxcox(original_data)
+
+# plot both together to compare
+fig, ax=plt.subplots(1,2)
+sns.distplot(original_data, ax=ax[0])
+ax[0].set_title("Original Data")
+sns.distplot(normalized_data[0], ax=ax[1])
+ax[1].set_title("Normalized data")
